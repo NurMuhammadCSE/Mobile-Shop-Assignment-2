@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Application
 app.use("/api/products", ProductRouter);
-app.use("/api/products", OrderRouter);
+app.use("/api/orders", OrderRouter);
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello World!");
