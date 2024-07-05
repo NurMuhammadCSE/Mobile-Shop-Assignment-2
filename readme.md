@@ -1,8 +1,12 @@
 # E-commerce Product Server
 
+## Live Demo
+
+[Mobile Shop Product Server](https://assignment-2-zeta.vercel.app/)
+
 ## Project Overview
 
-This project implements an Express.js application using TypeScript to build a robust E-commerce Product Server. It manages products and orders using MongoDB with Mongoose for data persistence. Key features include RESTful APIs for CRUD operations on products and orders, inventory management, validation using Zod, and comprehensive error handling.
+Developed an Express.js application using TypeScript for building an E-commerce Product Server. The server manages products and orders with MongoDB using Mongoose for data persistence. Key features include RESTful APIs for CRUD operations on products and orders, inventory management, validation using Zod, and error handling.
 
 ## Key Features and Technologies
 
@@ -43,20 +47,6 @@ This project implements an Express.js application using TypeScript to build a ro
 
 - @types/cors, @types/express, @types/validator, @typescript-eslint/eslint-plugin, @typescript-eslint/parser, eslint, ts-node-dev, typescript
 
-## Deployment
-
-Deployed the project on Vercel, providing a scalable and reliable production environment.
-
-## Recent Updates
-
-- Integrated Zod for data validation across product and order creation and update operations.
-- Successfully deployed the application on Vercel for public access.
-
-# Mobile Shop Product Server
-
-## Overview
-
-Developed a backend server for managing a mobile shop's products using TypeScript and Node.js. Implemented RESTful APIs for creating, retrieving, updating, and deleting product details, ensuring efficient inventory management and product handling.
 
 ## Table of Contents
 
@@ -95,9 +85,6 @@ Deployed the application on Vercel, providing a seamless and scalable production
 - **Compile TypeScript**: `npm run build`
 - **Check for Code Errors**: `npm run lint`
 
-## Live Demo
-
-[Mobile Shop Product Server](https://assignment-2-zeta.vercel.app/)
 
 ## Installation
 
