@@ -15,9 +15,9 @@ const getAllProducts = async (searchTerm?: string) => {
         {
           name: { $regex: searchTerm, $options: 'i' },
         },
-        {
-          category: { $regex: searchTerm, $options: 'i' },
-        },
+        // {
+        //   category: { $regex: searchTerm, $options: 'i' },
+        // },
       ],
     };
   }

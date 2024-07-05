@@ -72,7 +72,7 @@ const getSingleProduct = async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: 'Single Product Fetched Successfully!',
+      message: 'Product fetched successfully!',
       data: result,
     });
   } catch (error) {
@@ -92,7 +92,7 @@ const productUpdate = async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: 'Single Product Update Successfully!',
+      message: 'Product updated successfully!',
       data: result,
     });
   } catch (error) {
@@ -112,13 +112,13 @@ const productDelete = async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: 'Single Product Deleted Successfully!',
+      message: 'Product Deleted Successfully!',
       data: result,
     });
   } catch (error) {
     res.status(400).json({
       success: false,
-      message: 'Single Product is Not Successfully Delete',
+      message: 'Product is Not Successfully Delete',
       error,
     });
   }
