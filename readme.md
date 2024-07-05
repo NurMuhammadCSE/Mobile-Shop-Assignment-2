@@ -8,44 +8,10 @@
 
 Developed an Express.js application using TypeScript for building an E-commerce Product Server. The server manages products and orders with MongoDB using Mongoose for data persistence. Key features include RESTful APIs for CRUD operations on products and orders, inventory management, validation using Zod, and error handling.
 
-## Key Features and Technologies
-
-- **Express.js**: Used for building the server and handling HTTP requests.
-- **TypeScript**: Provides type safety and enhances code quality.
-- **MongoDB (with Mongoose)**: Manages data storage and retrieval for products and orders.
-- **Zod**: Integrated for robust data validation ensuring data integrity.
-- **Deployment**: Deployed on Vercel for scalable and reliable production hosting.
-
-## API Endpoints
-
-### Product Management
-
-- **Create Product**: `/api/products` (POST)
-- **Retrieve All Products**: `/api/products` (GET)
-- **Retrieve Specific Product**: `/api/products/:productId` (GET)
-- **Update Product**: `/api/products/:productId` (PUT)
-- **Delete Product**: `/api/products/:productId` (DELETE)
-- **Search Products**: `/api/products?searchTerm=<search-term>` (GET)
-
-### Order Management
-
-- **Create Order**: `/api/orders` (POST)
-- **Retrieve All Orders**: `/api/orders` (GET)
-- **Retrieve Orders by Email**: `/api/orders?email=<user-email>` (GET)
 
 ### Bonus Section
 
 - Implemented inventory update logic to reduce product quantity upon order creation.
-
-## Development Tools
-
-### Dependencies
-
-- cors, dotenv, express, mongoose, validator, zod
-
-### DevDependencies
-
-- @types/cors, @types/express, @types/validator, @typescript-eslint/eslint-plugin, @typescript-eslint/parser, eslint, ts-node-dev, typescript
 
 
 ## Table of Contents
@@ -63,6 +29,13 @@ Developed an Express.js application using TypeScript for building an E-commerce 
 
 ## Key Features
 
+- **Express.js**: Used for building the server and handling HTTP requests.
+- **TypeScript**: Provides type safety and enhances code quality.
+- **MongoDB (with Mongoose)**: Manages data storage and retrieval for products and orders.
+- **Zod**: Integrated for robust data validation ensuring data integrity.
+
+
+- **Deployment**: Deployed on Vercel for scalable and reliable production hosting.
 - **Product Management**: Comprehensive CRUD operations for products.
 - **Inventory Management**: Automated updates to product inventory and stock status.
 - **Validation**: Implemented robust data validation using Zod to ensure data integrity.
@@ -73,6 +46,14 @@ Developed an Express.js application using TypeScript for building an E-commerce 
 - **Express.js**: Built scalable and maintainable server-side applications.
 - **Mongoose**: Integrated MongoDB for database operations.
 - **ESLint**: Maintained code quality and consistency.
+
+### Dependencies
+
+- cors, dotenv, express, mongoose, validator, zod
+
+### DevDependencies
+
+- @types/cors, @types/express, @types/validator, @typescript-eslint/eslint-plugin, @typescript-eslint/parser, eslint, ts-node-dev, typescript
 
 ## Deployment
 
@@ -108,6 +89,21 @@ To set up the project locally, follow these steps:
    ```
 
 ## API Documentation
+
+### Product Management
+
+- **Create Product**: `/api/products` (POST)
+- **Retrieve All Products**: `/api/products` (GET)
+- **Retrieve Specific Product**: `/api/products/:productId` (GET)
+- **Update Product**: `/api/products/:productId` (PUT)
+- **Delete Product**: `/api/products/:productId` (DELETE)
+- **Search Products**: `/api/products?searchTerm=<search-term>` (GET)
+
+### Order Management
+
+- **Create Order**: `/api/orders` (POST)
+- **Retrieve All Orders**: `/api/orders` (GET)
+- **Retrieve Orders by Email**: `/api/orders?email=<user-email>` (GET)
 
 ### Endpoints
 
